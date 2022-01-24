@@ -1,0 +1,213 @@
+@media only screen and (max-width:600px){
+    .navbar{
+        position: fixed;
+        width:100%;
+    }
+    .navbar .menu-bar{
+        display:block;
+        grid-column: 8 / 9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .navbar .menu{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: aquamarine;
+        margin-top: 38em;
+        transform: translateX(170%);
+        transition: all 1s ;
+        
+    }
+    .navbar .menu-toggle{
+        transform: translateX(70%);
+    }
+    .hero{
+        padding-top:50px;
+    }
+    .hero .detel{
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+        padding-top: 135px;
+
+    }
+    .hero .cetel h1{
+        font-size: 2.5em;
+    }
+    .images .girl{
+    width: 60%;
+    height: 65%;
+    position:relative;
+    top: 60px;
+    right: 50px ;
+    }
+    .images{
+        height: 40%;
+        width: 40%;
+        position: absolute;
+        left: 40%;
+        top: 20px;
+    }
+    .presentacion{
+        padding-top: 600px ;
+        text-align: center;
+        font-size: 1.5em;
+        margin-left: -600px;
+    
+    }
+    .about{
+        margin-left: 4%;
+        /*grid-column: 1 / 2 ;
+        grid-row: 4 / 8 ;*/
+       /* min-height: 400px;*/
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /*grid-template-rows: repeat(2, 5fr) ; */
+        /*grid-template-columns:1fr;*/
+        row-gap: 34px; 
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .about__paragraph{
+
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-weight: 300;
+        width:100%;
+        margin: 20px auto;
+    }
+    .tercertittle{
+        font-size: 1.5rem;
+        margin-bottom: 20px;  
+    }
+    .titulo{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-left: -50px;
+        margin-top: 300px ;
+    }
+    .navegacion{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr );
+        /*grid-template-rows: repeat(3 , 1fr); */
+        /*grid-column: 1 / 5 ;
+        grid-row: 10 / 10;*/
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 80px;
+        
+    }
+    .stytitu{
+        font-size: 1.5em;
+        color: var(--color-primary);
+        margin-left: 40px; 
+        margin-top: -60px; 
+    }
+    .containe{
+        grid-template-columns: repeat(1 , 1fr );
+        /*grid-column: 1 / 3 ;*/
+        /*grid-row: 13 / 20;*/
+        width: 100%;
+        height: 430px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .containe .card{
+        width:330px;
+        height: 430px;
+        border-radius: 8px;
+        background: rgba(232, 235, 61, 0.5);
+        box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+        overflow: hidden;
+        margin:20px;
+        text-align: center;
+        transition: all 0.25s;
+    }
+    .pie .grupo{
+        width: 100%;
+        margin : 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        /*grid-column: 1 / 5 ;
+        grid-row: 8 / 20;*/
+        padding: 25px 0px;
+        margin-top: 3100px;
+    }
+    .pie .grupo .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie .grupo .box figure img{
+        width:100px;
+        position:absolute;
+        margin-top: -10px;
+        margin-left: -80px;
+    
+    }
+    .pie .grupo .box h2{
+        /*color: #fff;
+        margin-bottom:20px;*/
+        margin-top: 100px;
+        font-size: 30px;
+        margin-left: 180px;
+    
+    }
+    .pie .grupo .box p{
+        color: #efefef;
+        margin-bottom:10px ;
+        margin-left: 180px;
+    }
+    .formulario{
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 30px;
+        padding: 20px;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+        position: relative;
+    }
+    .formulario__titulo{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: rgba(0,0,0,0.7);
+    }
+    .modal img{
+        height: 40%;
+        width: 30%;
+        margin-left: 70px;
+    }
+    .pie .grupo .red-social a{
+        margin-right: -120px;
+        margin-left: 180px;
+
+    }
+    .close{
+        position: absolute ;
+        bottom: 5px;
+        right: 55px;
+        display:inline-block;
+        width: 80px;
+        height: 30px;
+        background: #8a0af3;
+        color:#fff;
+        line-height: 25px;
+        cursor:pointer;
+        border-radius: 15%;
+    
+    }
+    
+}
