@@ -162,15 +162,15 @@
                 <p>Si desea dejar un comentario </p>
                 <p>con gusto será atendido</p></div>
             <div class="box">
-                <form action="" class="formulario">
+                <form action="#" class="formulario" id="encuesta">
                     <h1 class="formulario__titulo">Contáctenos</h1>
-                    <input type="text" class="formulario__input">
+                    <input type="text" class="formulario__input" id="nombre">
                     <label for="" class="formulario__label">Nombre</label>
-                    <input type="text" class="formulario__input">
+                    <input type="text" class="formulario__input" id="email">
                     <label for="" class="formulario__label">Email</label>
-                    <input type="text" class="formulario__input">
+                    <input type="text" class="formulario__input" id="mensaje">
                     <label for="" class="formulario__label">Mensaje</label>
-                    <input type="submit" class="formulario__submit">
+                    <input type="submit" class="formulario__submit" id="enviar">
                 </form>
 
             </div>
@@ -183,15 +183,17 @@
                 </div>
             </div>
         </div>
-        <div class="modal-container">
+        <div class="modal-container" id="Modal">
             <div class="modal modal-close">
                <!-- <p class="close">Aceptar</p>-->
-                <img src="img/img6.jpeg" alt="">
+                <img src="img/img6.jpeg" alt=""/>
                 <div class="modal-textos">
                     <h2>Gracias por tu Comentario</h2>
                     <p>Me comunicaré contigo</p>
-                    <p class="close">Aceptar</p>
+                    <div class="saludo" id="saludo"></div>
+                    <!--<p class="close">Aceptar</p>-->
                 </div>
+                <p class="close">Aceptar</p>
 
             </div>
         

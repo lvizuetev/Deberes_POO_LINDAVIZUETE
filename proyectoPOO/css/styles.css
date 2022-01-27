@@ -320,7 +320,7 @@ span{
 .formulario__submit{
     display: block;
     width: 100%;
-    font-size:1.3em;
+    font-size:1.0em;
 }
 .formulario__input{
     padding: 20px;
@@ -370,8 +370,8 @@ span{
 
 }
 .modal{
-    width:40%;
-    height: 50%;
+    width:50%;
+    height: 60%;
     background: #fff;
     text-align: center;
     display: flex;
@@ -400,9 +400,9 @@ span{
     transform: translateY(-200%);
 }
 .modal > img{
-    height: 60%;
+    height: 50%;
     width: 40%;
-    margin-left: 120px;
+    margin-left: 140px;
 
 }
 .pie .grupo .red-social a{

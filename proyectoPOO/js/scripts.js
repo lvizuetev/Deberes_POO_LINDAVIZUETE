@@ -22,6 +22,16 @@ abrir.addEventListener("click", function(e){
     modalC.style.opacity ="1";
     modalC.style.visibility ="visible";
     modal.classList.toggle("modal-close");
+   /* const nombre = document.getElementById("nombre").value;
+    const email = document.getElementById("email").value;
+    const mensaje = document.getElementById("mensaje").value;
+    const $informacion = document.getElementById("informacion").value;
+    $informacion.textContent = `${nombre}, revise su correo => ${email}
+    para confirmar su registro, gracias por su comentario =>${mensaje}`
+    modal.classList.add("informacion")*/
+    /*modalC.style.opacity ="1";
+    modalC.style.visibility ="visible";
+    modal.classList.toggle("modal-close");*/
 
 })
 cerrar.addEventListener("click", function(){
@@ -44,3 +54,19 @@ window.addEventListener("click", function(e){
 
     }
 })
+function abrirModal(){
+    const formulario__submit = document.getElementById('enviar');
+    formulario__submit.addEventListener('click', event=> {
+        event.preventDefault();
+        const nombre = document.getElementById("nombre").value;
+        const email = document.getElementById("email").value;
+        const mensaje = document.getElementById("mensaje").value;
+        let camva = true;
+        let datva= false;
+        if (nombre !==''&& email!==''&& mensaje!=='')(camva=false )
+        document.getElementById('Modal').style.display = 'block';
+        document.getElementById('saludo').innerHTML=`<p> ${nombre} revise su correo => ${email} para confirmar su registro, gracias por su mensaje => ${mensaje} </p>`
+    }
+    )
+}
+abrirModal();
